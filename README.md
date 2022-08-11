@@ -1,5 +1,16 @@
 # Frequently Used JS Codes
 
+<b>Get all the child elements:</b>
+<pre><code>document.getElementById("gg_data_tags").querySelectorAll('input[type="checkbox"]')
+</pre></code>
+
+<b>Loop for the child elements:</b>
+<pre><code>all_checkbox.forEach(function (item) {
+  item.checked = false
+})
+</pre></code>
+
+
 <b>Add Class to an element:</b>
 <pre><code>this.result_player_two.classList.add("current-player")
 </pre></code>
