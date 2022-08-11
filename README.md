@@ -1,7 +1,7 @@
 # Frequently Used JS Codes
 
 <b>Get all the child elements:</b>
-<pre><code>document.getElementById("gg_data_tags").querySelectorAll('input[type="checkbox"]')
+<pre><code>var all_checkbox=document.getElementById("gg_data_tags").querySelectorAll('input[type="checkbox"]')
 </pre></code>
 
 <b>Loop for the child elements:</b>
