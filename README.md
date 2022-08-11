@@ -1,5 +1,12 @@
 # Frequently Used JS Codes
 
+<b>Add Class to an element:</b>
+<pre><code>this.result_player_two.classList.add("current-player")
+</pre></code>
+
+<b>Remove Class from an element:</b>
+<pre><code>this.result_player_one.classList.remove("current-player")
+</pre></code>
 
 <b>Push data to array </b>
 
