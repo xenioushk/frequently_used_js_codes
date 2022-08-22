@@ -34,6 +34,13 @@
 sel_authors.push("john", "mahbub", "alam", "khan")
 </pre></code>
 
+
+<b>Random value betwen two numbers</b>
+<pre><code> randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
+</pre></code>
+
 <b>Join Array:</b>
 
 <pre><code>const fruits = ["Banana", "Orange", "Apple", "Mango"];
