@@ -23,11 +23,14 @@
 <b>Add 'id' attribute to an element:</b>
 <pre><code>this.result_player_one.setAttribute("id", "my-id")</pre></code>
 
+<b>Add custom attribute to an element:</b>
+<pre><code>this.result_player_one.setAttribute("data-score", "10")</pre></code>
+
 <b>Remove 'class' attribute from an element:</b>
 <pre><code>this.result_player_one.removeAttribute("class")</pre></code>
 
-<b>Add custom attribute to an element:</b>
-<pre><code>this.result_player_one.setAttribute("data-score", "10")</pre></code>
+<b>Remove Multiple Classes to an element:</b>
+<pre><code>this.result_player_two.classList.remove("class_2", "class_3")</pre></code>
 
 <b>Force checkbox to check:</b>
 <pre><code>document.getElementById("checkbox").checked = true;</pre></code>
