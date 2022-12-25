@@ -16,9 +16,11 @@
 </pre></code>
 
 <b>Remove Class from an element:</b>
-<pre><code>this.result_player_one.classList.remove("current-player")
-</pre></code>
+<pre><code>this.result_player_one.classList.remove("current-player")</pre></code>
 
+
+<b>Remove 'class' attribute from an element:</b>
+<pre><code>this.result_player_one.removeAttribute("class")</pre></code>
 
 <b>Force checkbox to check:</b>
 <pre><code>document.getElementById("checkbox").checked = true;
