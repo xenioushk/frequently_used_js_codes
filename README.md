@@ -12,29 +12,30 @@
 
 
 <b>Add Class to an element:</b>
-<pre><code>this.result_player_two.classList.add("current-player")
-</pre></code>
+<pre><code>this.result_player_two.classList.add("current-player")</pre></code>
 
 <b>Remove Class from an element:</b>
 <pre><code>this.result_player_one.classList.remove("current-player")</pre></code>
 
+<b>Add 'id' attribute to an element:</b>
+<pre><code>this.result_player_one.setAttribute("id", "my-id")</pre></code>
 
 <b>Remove 'class' attribute from an element:</b>
 <pre><code>this.result_player_one.removeAttribute("class")</pre></code>
 
+<b>Add custom attribute to an element:</b>
+<pre><code>this.result_player_one.setAttribute("data-score", "10")</pre></code>
+
 <b>Force checkbox to check:</b>
-<pre><code>document.getElementById("checkbox").checked = true;
-</pre></code>
+<pre><code>document.getElementById("checkbox").checked = true;</pre></code>
 
 <b>Force checkbox to uncheck:</b>
-<pre><code>document.getElementById("checkbox").checked = false;
-</pre></code>
+<pre><code>document.getElementById("checkbox").checked = false;</pre></code>
 
 <b>Push data to array </b>
 
 <pre><code>var sel_authors = new Array()
-sel_authors.push("john", "mahbub", "alam", "khan")
-</pre></code>
+sel_authors.push("john", "mahbub", "alam", "khan")</pre></code>
 
 
 <b>Random value betwen two numbers</b>
