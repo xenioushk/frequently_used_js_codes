@@ -1,67 +1,108 @@
 # Frequently Used JS Codes
 
-<b>Get all the child elements:</b>
-<pre><code>var all_checkbox = document.getElementById("gg_data_tags").querySelectorAll('input[type="checkbox"]')
-</pre></code>
+## Get all the child elements
 
-<b>Loop for the child elements:</b>
-<pre><code>all_checkbox.forEach(function (item) {
+```javascript
+var all_checkbox = document.getElementById("gg_data_tags").querySelectorAll('input[type="checkbox"]')
+```
+
+## Loop for the child elements
+
+```javascript
+all_checkbox.forEach(function (item) {
   item.checked = false
 })
-</pre></code>
+```
 
+## Add Class to an element
 
-<b>Add Class to an element:</b>
-<pre><code>this.result_player_two.classList.add("current-player")</pre></code>
+```javascript
+this.result_player_two.classList.add("current-player")
+```
 
-<b>Add Multiple Classes to an element:</b>
-<pre><code>this.result_player_two.classList.add("current-player", "class_2", "class_3")</pre></code>
+## Add Multiple Classes to an element
 
-<b>Remove Class from an element:</b>
-<pre><code>this.result_player_one.classList.remove("current-player")</pre></code>
+````javascript
+this.result_player_two.classList.add("current-player", "class_2", "class_3")```
 
-<b>Add 'id' attribute to an element:</b>
-<pre><code>this.result_player_one.setAttribute("id", "my-id")</pre></code>
+## Remove Class from an element
 
-<b>Add custom attribute to an element:</b>
-<pre><code>this.result_player_one.setAttribute("data-score", "10")</pre></code>
+```javascript
+this.result_player_one.classList.remove("current-player")
+````
 
-<b>Remove 'class' attribute from an element:</b>
-<pre><code>this.result_player_one.removeAttribute("class")</pre></code>
+## Add 'id' attribute to an element
 
-<b>Remove Multiple Classes to an element:</b>
-<pre><code>this.result_player_two.classList.remove("class_2", "class_3")</pre></code>
+```javascript
+this.result_player_one.setAttribute("id", "my-id")
+```
 
-<b>Force checkbox to check:</b>
-<pre><code>document.getElementById("checkbox").checked = true;</pre></code>
+## Add custom attribute to an element
 
-<b>Force checkbox to uncheck:</b>
-<pre><code>document.getElementById("checkbox").checked = false;</pre></code>
+```javascript
+this.result_player_one.setAttribute("data-score", "10")
+```
 
-<b>Push data to array </b>
+## Remove 'class' attribute from an element
 
-<pre><code>var sel_authors = new Array()
-sel_authors.push("john", "mahbub", "alam", "khan")</pre></code>
+```javascript
+this.result_player_one.removeAttribute("class")
+```
 
+## Remove Multiple Classes to an element
 
-<b>Random value betwen two numbers</b>
-<pre><code> randomIntFromInterval(min, max) { // min and max included 
+```javascript
+this.result_player_two.classList.remove("class_2", "class_3")
+```
+
+## Force checkbox to check
+
+````javascript
+document.getElementById("checkbox").checked = true;```
+
+## Force checkbox to uncheck
+
+```javascript
+document.getElementById("checkbox").checked = false;
+````
+
+## Push data to array </b>
+
+```javascript
+var sel_authors = new Array()
+sel_authors.push("john", "mahbub", "alam", "khan")
+```
+
+## Random value betwen two numbers</b>
+
+```javascript
+ randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min)
   }
-</pre></code>
+```
 
-<b>Join Array:</b>
+## Join Array
 
-<pre><code>const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let text = fruits.join(); 
-</pre></code>
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+let text = fruits.join()
+```
 
-<b>Array Map:</b>
+## Array Map
 
-<pre><code>const numbers = [65, 44, 12, 4];
+```javascript
+const numbers = [65, 44, 12, 4]
 const newArr = numbers.map(myFunction)
 
 function myFunction(num) {
-  return num * 10;
+  return num * 10
 }
-</pre></code>
+```
+
+### More example
+
+You can check more javascript example codes from [here](https://github.com/xenioushk/javascript_101).
+
+## Acknowledgement
+
+- [bluewindlab.net](https://bluewindlab.net)
